@@ -1,0 +1,11 @@
+[Unit]
+Description=
+
+[Service]
+User = myuser
+Type = forking 
+ExecStart = /usr/sbin/test-1650373
+ExecStop = /usr/sbin/test-1650373
+
+[Install]
+WantedBy=multi-user.target
